@@ -25,8 +25,8 @@
 <style>
 video{
 			
-width:90px;
-  height:90px;
+width:190px;
+  height:190px;
   list-style:none; 
 border:1px solid #c0c0c0; 
 float:left; 
@@ -86,7 +86,7 @@ border-right:1px solid #c0c0c0;
  * animation slide-in-tl
  * ----------------------------------------
  */
-@-webkit-keyframes video {
+@-webkit-keyframes video :: before {
   0% {
     -webkit-transform: translateY(-1000px) translateX(-1000px);
             transform: translateY(-1000px) translateX(-1000px);
@@ -98,7 +98,7 @@ border-right:1px solid #c0c0c0;
     opacity: 1;
   }
 }
-@keyframes video{
+@keyframes video::before{
   0% {
     -webkit-transform: translateY(-1000px) translateX(-1000px);
             transform: translateY(-1000px) translateX(-1000px);
